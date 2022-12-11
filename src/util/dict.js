@@ -1,0 +1,1 @@
+export const MODE_TYPE_FLOOR = 1

@@ -1,0 +1,59 @@
+{
+    "floor" : {
+        "x" : 400,
+        "y" : 5,
+        "z" : 400,
+        "imgUrl" : "./img/floor.jpeg"
+    },
+    "wall" : [
+        {
+            "x" : 400,
+            "y" : 50,
+            "z" : 5,
+            "imgUrl" : "./img/floor.jpeg",
+            "translateX" : 0,
+            "translateY" : 25,
+            "translateZ" : 200
+        },
+        {
+            "x" : 400,
+            "y" : 50,
+            "z" : 5,
+            "imgUrl" : "./img/floor.jpeg",
+            "translateX" : 0,
+            "translateY" : 25,
+            "translateZ" : -200
+        },
+        {
+            "x" : 5,
+            "y" : 50,
+            "z" : 400,
+            "imgUrl" : "./img/floor.jpeg",
+            "translateX" : -200,
+            "translateY" : 25,
+            "translateZ" : 0
+        },
+        {
+            "x" : 5,
+            "y" : 50,
+            "z" : 400,
+            "imgUrl" : "./img/floor.jpeg",
+            "translateX" : 200,
+            "translateY" : 25,
+            "translateZ" : 0
+        }
+    ],
+    "cabinet" : [
+        {
+            "width" : 25,
+            "height" : 50,
+            "deep" : 25,
+            "translateX" : 50,
+            "translateY" : 0,
+            "translateZ" : -0,
+            "cabinetBg" : "./img/cabinet_bg.jpg",
+            "cabinetFg" : "./img/cabinet_fg.jpeg"
+
+        }
+    ]
+}

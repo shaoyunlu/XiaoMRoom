@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>3D机房</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+            margin : 0;
+            padding : 0;
+        }
+        #divTool{
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+        input{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="divTool">
+
+    </div>
+</body>
+<script src="./xiaoMRoom.js"></script>
+<script>
+    var visRoom = new XiaoMRoom()
+    console.log(visRoom)
+    
+    fetch('./data.json').then((tmp)=>{
+        tmp.json().then(data =>{
+            visRoom.load(data)
+        })
+    })
+
+</script>
+</html>

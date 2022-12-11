@@ -1,0 +1,29 @@
+{
+  "name": "visroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx rollup -c -w",
+    "build": "npx rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaoyunlu/visRoom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaoyunlu/visRoom/issues"
+  },
+  "homepage": "https://github.com/shaoyunlu/visRoom#readme",
+  "dependencies": {
+    "rollup": "^3.3.0",
+    "three": "^0.146.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1"
+  }
+}
